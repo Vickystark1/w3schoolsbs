@@ -1,0 +1,101 @@
+.logo img{height:2.5rem;
+     width: 2.5rem;}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width:100%;
+    font-family: sans-serif;
+}     
+
+/*Navbar*/
+
+#navbar{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+}
+
+li{
+    padding: 5px;
+}
+
+.nav-link{
+    font-weight:bold;
+    
+}
+
+.nav-link:hover{
+        background-color:#04AA6D;
+    
+}
+
+/*carousel*/
+
+.carousel-item{
+    height: 32rem;
+    background-color:black;
+    color: white;
+    position: relative;
+}
+
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+
+}
+
+.overlay-image{
+    position: absolute;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity:0.8;
+
+}
+
+.overlay-image img{height:100%;}
+
+/**************About***************/
+
+.w3schools img{
+    height:50%;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 10%;
+    
+}
+
+/*--Services*/
+
+.inner{
+    overflow: hidden;
+}
+.card img{
+    height: 300px;
+}
+
+.card img:hover{
+    background-color: bisque;
+    opacity: 0.5;
+}
+
+form{
+    align-items: center;
+    justify-content: center;
+    padding:40px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2),
+    -1px -1px 5px rgba(0,0,0,.05);
+
+border-radius:30px;}
